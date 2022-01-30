@@ -21,9 +21,8 @@ const defaultMenu = {
   header: '╭──「 %category 」',
   body: '├❦⁩ %cmd',
   footer: '╰──\n',
-  after: `
-*BabyBot Wangsaf*
-*Owner Julian09*
+  after: `*
+*Owner Z〽D*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -186,8 +185,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "Baby Bot",
-          "buttonText": "Klik Disini",
+          "description": "ī.ᴀᴍ/ꪶ͢ʜᴀᴄᴋᴇʀ;ᴢᴇᴅꫂ",
+          "buttonText": "ī.ᴀᴍ/ꪶ͢ʜᴀᴄᴋᴇʀ;ᴢᴇᴅꫂ",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
@@ -380,7 +379,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     throw e
   }
 }
-handler.help = ['?', 'menu', 'help']
+handler.help = ['?', 'help', 'menu']
 handler.tags = ['main']
 handler.command = /^(nyong|\?|help)$/i
 
