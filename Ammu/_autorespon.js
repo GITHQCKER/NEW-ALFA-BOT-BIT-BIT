@@ -64,7 +64,7 @@ https://github.com/D-E-V-I-L-8/Ammu
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | Ammu by DEVILSER`).catch(_ => _)
+        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | ZES〽`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
