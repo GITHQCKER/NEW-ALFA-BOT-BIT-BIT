@@ -301,9 +301,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 const thumb = fs.readFileSync('./icon.jpeg')
 let msg = await conn.prepareMessage("0@s.whatsapp.net", img, "imageMessage", {thumbnail: fs.readFileSync('./icon.jpeg')})
 const buttons = [
-{buttonId: `,creator`, buttonText: {displayText: 'ʙᴏᴛ ᴄᴏᴅᴇʀ'}, type: 1},
+{buttonId: `.? menu`, buttonText: {displayText: 'ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ'}, type: 1},
 
-{buttonId: `,sc`, buttonText: {displayText: 'ꜱᴄʀɪᴘᴛ'}, type: 1}
+{buttonId: `.sc`, buttonText: {displayText: 'ꜱᴄʀɪᴘᴛ'}, type: 1}
 ]
 const buttonsMessage = {
     contentText: `HIIㅤㅤㅤㅤ`,
