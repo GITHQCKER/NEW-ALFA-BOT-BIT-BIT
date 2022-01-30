@@ -303,7 +303,7 @@ let msg = await conn.prepareMessage("0@s.whatsapp.net", img, "imageMessage", {th
 const buttons = [
 {buttonId: `,creator`, buttonText: {displayText: 'ʙᴏᴛ ᴄᴏᴅᴇʀ'}, type: 1},
 
-{buttonId: `,git`, buttonText: {displayText: 'ꜱᴄʀɪᴘᴛ'}, type: 1}
+{buttonId: `,sc`, buttonText: {displayText: 'ꜱᴄʀɪᴘᴛ'}, type: 1}
 ]
 const buttonsMessage = {
     contentText: `HIIㅤㅤㅤㅤ`,
