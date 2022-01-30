@@ -300,13 +300,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let tod = 'https://youtube.com'
 const thumb = fs.readFileSync('./icon.jpeg')
 let msg = await conn.prepareMessage("0@s.whatsapp.net", img, "imageMessage", {thumbnail: fs.readFileSync('./icon.jpeg')})
-const buttons = [
-{buttonId: `.? menu`, buttonText: {displayText: 'ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ'}, type: 1},
 
-{buttonId: `.sc`, buttonText: {displayText: 'ꜱᴄʀɪᴘᴛ'}, type: 1}
-]
 const buttonsMessage = {
-    contentText: `HIIㅤㅤㅤㅤ`,
+    contentText: `HELLO USER 😂♥ㅤㅤㅤ`,
     footerText: text,
     buttons: buttons,
     headerType: 4,
