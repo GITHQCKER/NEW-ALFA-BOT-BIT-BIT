@@ -5,7 +5,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
   else who = m.chat
   if (!who) {
-    conn.reply(m.chat, fail, m, { contextInfo: { mentionedJid: ['919656459062@s.whatsapp.net'] } })
+    conn.reply(m.chat, fail, m, { contextInfo: { mentionedJid: ['94771323434@s.whatsapp.net'] } })
     throw false
   }
   if (typeof global.db.data.users[who] == "undefined") {
@@ -29,7 +29,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
   let txt = text.replace('@' + who.split`@`[0], '').trim()
   if (!txt) {
-    conn.reply(m.chat, fail, m, { contextInfo: { mentionedJid: ['919656459062@s.whatsapp.net'] } })
+    conn.reply(m.chat, fail, m, { contextInfo: { mentionedJid: ['94771323434@s.whatsapp.net'] } })
     throw false
   }
   if (isNaN(txt)) throw 'only numbers'
