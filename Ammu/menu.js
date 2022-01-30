@@ -183,8 +183,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `ㅤ`.trim(),
-          "buttonText": "*✯ᴄʟɪᴄᴋ ᴍᴇ✯*",
-          "footerText": '```© ⁨ᴀᴍᴍᴜ```',
+          "buttonText": "*ᴄʟɪᴄᴋ*",
+          "footerText": '```© ᴢᴇᴅ ʙᴏᴛ (ʀᴇᴄᴏᴅᴇ ʙᴏᴛ) ʀᴇᴄᴏᴅᴇ ʙʏ ᴢᴇᴅ.```',
           "description": "ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴏᴘᴛɪᴏɴㅤ",
           "listType": "SINGLE_SELECT",
           "sections": [
