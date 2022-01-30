@@ -27,7 +27,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail":  fs.readFileSync('./icon.jpeg') ////Gambarny
 					},
-					"title": `Ammu`, //Kasih namalu 
+					"title": `⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩`, //Kasih namalu 
 					"description": `%name`, 
 					"currencyCode": "INR",
 					"priceAmount1000": "999999",
