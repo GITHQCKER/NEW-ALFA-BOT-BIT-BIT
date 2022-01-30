@@ -1,6 +1,6 @@
 let handler = async (m, { args, usedPrefix, command }) => {
 
-    if (!args[0]) throw 'where is the username bro?\nExample D-E-V-I-L-8'
+    if (!args[0]) throw 'where is the username bro?\nExample ims'
     if (!args[1]) throw 'where is the repo??\nExample Ammu'
     
     let url = `https://github.com/${args[0]}/${args[1]}/archive/refs/heads/main.zip`
