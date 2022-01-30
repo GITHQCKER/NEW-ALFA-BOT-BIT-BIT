@@ -20,7 +20,7 @@ let text = `
 │ GROUP -https://chat.whatsapp.com/HEP90W2NX9Y4YISOzCu7AQ
 ╰─○
 `.trim()
-conn.send3ButtonImg(m.chat, thumb, text, 'SCRIPT', 'MENU📚', '.menu', 'OWNER👤', '.owner', 'DONASI🤑', '.donasi', fkon)
+conn.send3ButtonImg(m.chat, thumb, text, 'SCRIPT', 'MENU〽', '.? menu', 'OWNER', '.owner', 'නීති', '.rule', fkon)
 }
 
 handler.help = ['main']
