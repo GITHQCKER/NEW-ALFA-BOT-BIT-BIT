@@ -1,19 +1,19 @@
 {
   "users": {
-    "919656459062@s.whatsapp.net": {
+    "948771323434@s.whatsapp.net": {
       "exp": 9998736531,
       "limit": 999999,
       "lastclaim": 0,
       "registered": true,
-      "name": "ī.am/ꪶ͢ᴅᴇᴠɪʟꫂ⁩⁴⁰⁴⁩",
-      "age": 18,
+      "name": "⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩",
+      "age": 15,
       "regTime": 1640580049369,
       "afk": -1,
       "afkReason": "",
       "banned": false,
       "level": 999999,
       "call": 0,
-      "role": "HACKER⁴⁰⁴",
+      "role": "⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁴",
       "autolevelup": false,
       "pc": 0,
       "warning": 0,
@@ -23,12 +23,12 @@
       "cxp": 0,
       "axp": 0
     },
-    "918943482624@s.whatsapp.net": {
+    "94771323434@s.whatsapp.net": {
       "exp": 11,
       "limit": 10,
       "lastclaim": 0,
       "registered": false,
-      "name": "+91 89434 82624",
+      "name": "+94771323434",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -51,7 +51,7 @@
       "limit": 10,
       "lastclaim": 0,
       "registered": false,
-      "name": "ī.am/ꪶ͢ᴀᴍᴍᴜꫂ⁩",
+      "name": "⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -71,7 +71,7 @@
     }
   },
   "chats": {
-    "919656459062@s.whatsapp.net": {
+    "94771323434@s.whatsapp.net": {
       "isBanned": false,
       "welcome": false,
       "detect": false,
@@ -130,7 +130,7 @@
       "backupDB": 0,
       "groupOnly": false,
       "jadibot": false,
-      "nsfw": true,
+      "nsfw": false,
       "status": 1640580049257
     }
   }
