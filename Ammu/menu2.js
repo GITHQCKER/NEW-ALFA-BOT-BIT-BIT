@@ -408,18 +408,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari"
+  res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ʙᴏꜱᴀ"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "ɢᴏᴏᴅ ᴀꜰᴛᴇʀɴᴏᴏɴ ʙᴏꜱᴀ"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "ɢᴏᴏᴅ ᴀꜰᴛᴇʀɴᴏᴏɴ ʙᴏꜱᴀ"
   }
   return res
 }
