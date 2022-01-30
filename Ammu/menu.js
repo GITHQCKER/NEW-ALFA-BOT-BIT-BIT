@@ -10,7 +10,7 @@ const defaultMenu = {
   header: '*╭────────────────*',
   body: '*│*  *✧%cmd*',
   footer: '*╰────────────────*\n',
-  after: `  © ī.am/ꪶᴅᴇᴠɪʟꫂ⁩⁴⁰⁴⁩⁩⁩   `,
+  after: `  ©⁴⁩⁩⁩⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩   `,
 }
 
 //troli
@@ -183,7 +183,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `ㅤ`.trim(),
-          "buttonText": "*ᴄʟɪᴄᴋ*",
+          "buttonText": "*ᴄʟɪᴄᴋ ɴᴏᴡ*",
           "footerText": '```© ᴢᴇᴅ ʙᴏᴛ (ʀᴇᴄᴏᴅᴇ ʙᴏᴛ) ʀᴇᴄᴏᴅᴇ ʙʏ ᴢᴇᴅ.```',
           "description": "ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴏᴘᴛɪᴏɴㅤ",
           "listType": "SINGLE_SELECT",
@@ -301,9 +301,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 const thumb = fs.readFileSync('./icon.jpeg')
 let msg = await conn.prepareMessage("0@s.whatsapp.net", img, "imageMessage", {thumbnail: fs.readFileSync('./icon.jpeg')})
 const buttons = [
-{buttonId: `,creator`, buttonText: {displayText: 'ʙᴏᴛ ᴏᴡɴᴇʀ'}, type: 1},
+{buttonId: `,creator`, buttonText: {displayText: 'ʙᴏᴛ ᴄᴏᴅᴇʀ'}, type: 1},
 
-{buttonId: `,git`, buttonText: {displayText: 'ɢɪᴛʜᴜʙ ʟɪɴᴋ'}, type: 1}
+{buttonId: `,git`, buttonText: {displayText: 'ꜱᴄʀɪᴘᴛ'}, type: 1}
 ]
 const buttonsMessage = {
     contentText: `HIIㅤㅤㅤㅤ`,
