@@ -14,7 +14,7 @@ let handler = async (m, { conn }) => {
 ඇඩ්මින් සෙට් එක කියන දේ අහන්න
 © IMASH NIDUSHA
  `.trim()
-    await conn.send2ButtonLoc(m.chat, await (await fetch("non")).buffer(), devil, '© ⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩', 'ᴀɢʀᴇᴇ ᴛᴏ ʀᴜʟᴇꜱ', '.? menu', 'ᴀɢʀᴇᴇ ʀᴜʟꜱᴇ', ',owner' )
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://ibb.co/fXd6fqD")).buffer(), devil, '© ⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩', 'ᴀɢʀᴇᴇ ᴛᴏ ʀᴜʟᴇꜱ', '.? menu', 'ᴀɢʀᴇᴇ ʀᴜʟꜱᴇ', ',owner' )
 }
 handler.tags = ['main']
 handler.help = ['rules']
