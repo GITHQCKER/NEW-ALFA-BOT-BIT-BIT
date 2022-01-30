@@ -380,7 +380,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     throw e
   }
 }
-handler.help = ['nyong', '?', 'help']
+handler.help = ['?', 'menu', 'help']
 handler.tags = ['main']
 handler.command = /^(nyong|\?|help)$/i
 
