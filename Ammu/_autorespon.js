@@ -14,8 +14,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Ammu is not active' : banned ? 'you are banned' : 'Ammu here',
-                '© Ammu',
+                isBanned ? 'ZED IS' : banned ? 'you are banned' : 'ZED here',
+                '© ZED',
                 isBanned ? 'Unban' : banned ? 'Bot Owner' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Support',
@@ -33,7 +33,7 @@ handler.all = async function (m, { isBlocked }) {
 └────
 
 https://github.com/D-E-V-I-L-8/Ammu
-`.trim(), '© Ammu', ' Owner', ',owner', m)
+`.trim(), '© ZED', ' Owner', ',owner', m)
     }
 
         // ketika ada yang invite/kirim link grup di chat pribadi
@@ -41,7 +41,7 @@ https://github.com/D-E-V-I-L-8/Ammu
             this.sendButton(m.chat, `┌〔 Invite Bots to Group 〕
 .kick
     https://github.com/D-E-V-I-L-8/Ammu
-    `.trim(), '© Ammu', ' Owner', ',owner', m)
+    `.trim(), '© ZED', ' Owner', ',owner', m)
         }
 
     // backup db
