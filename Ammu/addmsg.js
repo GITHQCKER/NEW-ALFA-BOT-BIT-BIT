@@ -10,7 +10,7 @@ let handler = async (m, { command, usedPrefix, text }) => {
     /*m.reply(`Successfully added message in message list as '${text}'
     
 Access with ${usedPrefix}get${which} ${text}`)*/
-    conn.fakeReply(m.chat, ' *ꜱᴜᴄᴄᴇꜱꜱ ᴀᴅᴅᴇᴅ ɪɴ ᴀᴍᴍᴜꜱ ᴅᴀᴛᴀʙᴀꜱᴇ✔️* ', '0@s.whatsapp.net', ` *ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴀᴅᴅᴇᴅ ⍟៚* ${text}`, 'status@broadcast')
+    conn.fakeReply(m.chat, ' *ꜱᴜᴄᴄᴇꜱꜱ* ', '0@s.whatsapp.net', ` *ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ* ${text}`, 'status@broadcast')
 }
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker', 'gif'].map(v => 'add' + v + ' <teks>')
 handler.tags = ['database']
