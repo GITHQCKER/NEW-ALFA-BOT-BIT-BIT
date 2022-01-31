@@ -6,7 +6,7 @@ let handler = async (m, { command, usedPrefix, text }) => {
     delete msgs[text]
     /*m.reply(`Successfully deleted message in message list with name '${text}'`)
 }*/
-  conn.fakeReply(m.chat, ' *ꜱᴜᴄᴄᴇꜱꜱ ᴅᴇʟᴇᴛᴇᴅ🗑️ ꜰʀᴏᴍ ᴀᴍᴍᴜꜱ ᴅᴀᴛᴀʙᴀꜱᴇ✔️* ', '0@s.whatsapp.net', ` *ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ⍟៚* ${text}`, 'status@broadcast')
+  conn.fakeReply(m.chat, ' * ᴅᴇʟᴇᴛᴇD* ', '0@s.whatsapp.net', ` *ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ* ${text}`, 'status@broadcast')
 }
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker', 'gif'].map(v => 'del' + v + ' <teks>')
 handler.tags = ['database']
