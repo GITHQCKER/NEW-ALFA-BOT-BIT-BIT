@@ -31,8 +31,6 @@ handler.all = async function (m, { isBlocked }) {
 ├ To Join Groups..
 ├ .join Group Link
 └────
-
-https://github.com/D-E-V-I-L-8/Ammu
 `.trim(), '© ZED', ' Owner', ',owner', m)
     }
 
