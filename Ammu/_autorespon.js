@@ -38,7 +38,6 @@ handler.all = async function (m, { isBlocked }) {
         if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Open this link')) && !m.isBaileys && !m.isGroup) {
             this.sendButton(m.chat, `┌〔 Invite Bots to Group 〕
 .kick
-    https://github.com/D-E-V-I-L-8/Ammu
     `.trim(), '© ZED', ' Owner', ',owner', m)
         }
 
