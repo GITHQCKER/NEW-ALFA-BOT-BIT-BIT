@@ -24,7 +24,7 @@ handler.help = ['mp4', 'v'].map(v => 'yt' + v)
 
 handler.tags = ['downloader']
 
-handler.command = /^yt(a|mp3)$/i
+handler.command = /^yt(v|mp4)$/i
 
 handler.limit = true
 
