@@ -13,7 +13,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail":  fs.readFileSync('./icon.jpeg') ////Gambarny
 					},
-					"title": `🙂`, //Kasih namalu 
+					"title": `Ammu`, //Kasih namalu 
 					"description": `%name`, 
 					"currencyCode": "INR",
 					"priceAmount1000": "999999999",
@@ -48,9 +48,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send3ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `*Title:* ${title}
 *Audio File Size:* ${filesizeF}
-*Video File Size:* ${yt2.filesizeF}`, watermark, `ＭＰ3 ＳＯＮＧ ${filesizeF}`, `.yta ${vid.url}`, `ＢＯＴ ＩＮＦＯ`, '.sc', reply)
+*Video File Size:* ${yt2.filesizeF}`, watermark, `ＡＵＤＩＯ ${filesizeF}`, `.yta ${vid.url}`, `ＶＩＤＥＯ ${yt2.filesizeF}`, `.ytv ${vid.url}`, `ＵＲＬ   \n\ ${vid.url}`, '.sc', reply)
 }
-handler.help = ['song','play','.'].map(v => v + ' <query>')
+handler.help = ['song','play','?'].map(v => v + ' <query>')
 handler.tags = ['downloader']
 handler.command = /^(play|song)$/i
 
