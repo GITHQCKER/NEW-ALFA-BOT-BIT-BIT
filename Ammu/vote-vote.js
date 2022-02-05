@@ -26,7 +26,7 @@ _Total: ${devote.length}_
 ${devote.map(u => '@' + u.split('@')[0]).join('\n')}
 _© Ammu_
     `.trim()
-    await conn.send2Button(m.chat, caption, '© Ammu', 'UPVOTE', `${usedPrefix}upvote`, 'DEVOTE', `${usedPrefix}devote`, { contextInfo: { mentionedJid } })
+    await conn.send2Button(m.chat, caption, '©ZED', 'UPVOTE', `${usedPrefix}upvote`, 'DEVOTE', `${usedPrefix}devote`, { contextInfo: { mentionedJid } })
 }
 handler.help = ['upvote', 'devote']
 handler.tags = ['vote']
