@@ -1,42 +1,32 @@
 let limit = 30
+
 let fetch = require('node-fetch')
-const { servers, ytv } = require('../lib/y2mate')
-let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw 'uhm... wheres the url?'
-  let chat = global.db.data.chats[m.chat]
-  let server = (args[1] || servers[0]).toLowerCase()
-  try {
-    let { dl_link, thumb, title, filesize, filesizeF } = await ytv(args[0], servers.includes(server) ? server : servers[0])
-    let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
-    m.reply(isLimit ? `File Size: ${filesizeF}\nFile size above ${limit} MB, download it yourself: ${dl_link}` : global.wait)
-    let _thumb = {}
-    try { _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
-    catch (e) { }
-    if (!isLimit) conn.sendFile(m.chat, dl_link, '', `
-*Title:* ${title}
-*File Size:* ${filesizeF}
-  `.trim(), m, 0, {
-      ..._thumb,
-      asDocument: chat.useDocument
-    })
-  } catch (e) {
-    return await conn.sendButton(m.chat, 'Server Error', '', 'Try Again', `${usedPrefix + command} ${args[0]}`)
-  }
+
+let handler = async (m, { conn, args, isPrems, isOwner }) => {
+
+	if (!args || !args[0]) throw 'Uhm... urlnya mana?'	let chat = db.data.chats[m.chat]
+
+	let dl_link = `https://yt-downloader.akkun3704.repl.co/?url=${args[0]}&filter=audioonly&quality=&contenttype=`
+
+	let json = await (await fetch(`https://yt-downloader.akkun3704.repl.co/yt?url=${args[0]}`)).json()
+
+	let res = await (await fetch(dl_link)).buffer()
+
+	let isLimit = (isPrems || isOwner ? 99 : limit) * 1000000 < res.length
+
+  conn.reply(m.chat,' ```Ⓓ︎Ⓞ︎Ⓦ︎Ⓝ︎Ⓛ︎Ⓞ︎Ⓐ︎Ⓓ︎Ⓘ︎Ⓝ︎Ⓖ︎...```', m)
+
+	if (!isLimit) conn.sendMessage(m.chat, res, chat.useDocument ? 'documentMessage' : 'videoMessage', { quoted: m, filename: json.result.videoDetails.title + '.mp4', mimetype: 'video/mp4' })
+
 }
-handler.help = ['mp4', 'v', ''].map(v => 'yt' + v + ` <url> [server: ${servers.join(', ')}]`)
+
+handler.help = ['mp4', 'v'].map(v => 'yt' + v)
+
 handler.tags = ['downloader']
-handler.command = /^ytv?$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
 
-handler.admin = false
-handler.botAdmin = false
+handler.command = /^yt(a|mp3)$/i
 
-handler.fail = null
-handler.exp = 0
 handler.limit = true
 
+module.exports = handler
 module.exports = handler
