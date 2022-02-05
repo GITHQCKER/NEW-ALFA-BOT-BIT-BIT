@@ -19,7 +19,7 @@ _Total: ${devote.length}_
 ${devote.map(u => '@' + u.split('@')[0]).join('\n')}
 _© Ammu_
     `.trim()
-    await conn.send3Button(m.chat, caption, '© Ammu', 'UPVOTE', `${usedPrefix}upvote`, 'DEVOTE', `${usedPrefix}devote`, 'DELETE VOTE', `${usedPrefix}deletevote`, { contextInfo: { mentionedJid } })
+    await conn.send3Button(m.chat, caption, '©ZED〽', 'UPVOTE', `${usedPrefix}upvote`, 'DEVOTE', `${usedPrefix}devote`, 'DELETE VOTE', `${usedPrefix}deletevote`, { contextInfo: { mentionedJid } })
 }
 handler.help = ['checkvote']
 handler.tags = ['vote']
