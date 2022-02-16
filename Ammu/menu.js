@@ -7,9 +7,9 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: ` `.trimStart(),
-  header: '*╭────────────────*',
-  body: '*│*  *✧%cmd*',
-  footer: '*╰────────────────*\n',
+  header: '*╔═════════════════*',
+  body: '*║*  _࿐ %cmd_',
+  footer: '*╚══════════════════*\n',
   after: `  ©⁴⁩⁩⁩⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩   `,
 }
 
@@ -30,7 +30,7 @@ key: {
 					"title": `⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩`, //Kasih namalu 
 					"description": `%name`, 
 					"currencyCode": "LKR",
-					"priceAmount1000": "1",
+					"priceAmount1000": "123456789",
 					"retailerId": ` %name`,
 					"productImageCount": 1
 				},
