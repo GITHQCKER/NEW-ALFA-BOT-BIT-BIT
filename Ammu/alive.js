@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
 ╚═══════════════════════════════════════════╝
 © IMASH NIDUSHA
  `.trim()
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://ibb.co/fXd6fqD")).buffer(), devil, '© ⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩', 'ᴀɢʀᴇᴇ ᴛᴏ ʀᴜʟᴇꜱ', '.? menu', 'ᴀɢʀᴇᴇ ʀᴜʟꜱᴇ', ',owner' )
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://raw.githubusercontent.com/GITHQCKER/lol.jph.jio.amlpkha/v5/image/lol.jpg")).buffer(), devil, '© ⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩⁩', 'ᴀɢʀᴇᴇ ᴛᴏ ʀᴜʟᴇꜱ', '.? menu', 'ᴀɢʀᴇᴇ ʀᴜʟꜱᴇ', ',owner' )
 }
 handler.tags = ['main']
 handler.help = ['rules']
