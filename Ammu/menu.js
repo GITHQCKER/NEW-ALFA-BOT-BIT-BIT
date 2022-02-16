@@ -215,7 +215,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             "stanzaId": m.key.id,
             "participant": '0@s.whatsapp.net',
             "remoteJid": 'status@broadcast',
-            "forwardingScore":9,
+            "forwardingScore":999,
             "isForwarded": true
           }
         }
@@ -305,7 +305,7 @@ const buttons = [
 {buttonId: `sc`, buttonText: {displayText: 'ɴɪᴄᴇ ʙᴏᴛ'}, type: 1}
 ]
 const buttonsMessage = {
-    contentText: `HELLO USER 😂♥ㅤㅤㅤ`,
+    contentText: `║🇨‌🇲‌🇩‌║`,
     footerText: text,
     buttons: buttons,
     headerType: 4,
