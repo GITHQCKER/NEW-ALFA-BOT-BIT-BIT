@@ -29,7 +29,7 @@ key: {
 					},
 					"title": `⁨ɪͥᴛͭsᷤ ᴍᷟᴇͤ ī.am 𝜡𝛯ᗪ⁴⁰⁴⁩`, //Kasih namalu 
 					"description": `%name`, 
-					"currencyCode": "INR",
+					"currencyCode": "USD",
 					"priceAmount1000": "999999",
 					"retailerId": ` %name`,
 					"productImageCount": 1
